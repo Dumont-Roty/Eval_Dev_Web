@@ -12,3 +12,21 @@ header {
     align-items: top;
 }
 
+header img {
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+header nav {
+    justify-content: space-between, 10px;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10%;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
