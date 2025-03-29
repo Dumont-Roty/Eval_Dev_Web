@@ -30,3 +30,28 @@ header nav a {
     text-decoration: none;
     margin: 0 10px;
 }
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: left;
+}
+
+#home h1 {
+    font-size: 50px;
+    margin-left: 15%;
+    margin-top: 15%;
+    text-align: left;
+}
+
+#home H::after {
+    content: "H";
+    font-size: 300px;
+    margin-left: 15%;
+    margin-top: 10%;
+    text-align: left;
+    display: inline-block;
+    color: white;
+    opacity: 0.5;
+}
