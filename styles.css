@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+
 body {
-    background: url(/Images/home1.jpg) no-repeat top center;
     background-size: cover;
     color: white;
     margin: 0, auto;
+    position: relative;
+}
+
+#home {
+    position: relative;
+    top: -1vh;
+    height: 100vh;
+    width: 100vw;
+    background: url(./Images/home1.jpg) no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -29,29 +40,45 @@ header nav a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+    font-family: 'Roboto Slab', serif;
 }
 
-#home {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    text-align: left;
+#home .H{
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 2.1em;
 }
 
-#home h1 {
-    font-size: 50px;
-    margin-left: 15%;
-    margin-top: 15%;
-    text-align: left;
-}
-
-#home H::after {
-    content: "H";
-    font-size: 300px;
-    margin-left: 15%;
-    margin-top: 10%;
-    text-align: left;
-    display: inline-block;
+#home .H h1 {
+    position: absolute;
+    top: 6vh;
+    left: 15vw;
     color: white;
-    opacity: 0.5;
+    opacity: 0.2;
+    font-size: 11em;
+    font-family: "Roboto Slab", serif;
+}
+
+#home .Hello{
+    position: relative;
+    text-align: center;
+    margin-top: 1vh;
+    top : 32vh;
+    left : -19.2vw;
+    color: white;
+    opacity: 0.9;
+    font-size: 4em;
+    font-family: "Roboto Slab", serif;
+    font-weight: 0;
+}
+
+#home .Texte p{
+    position : absolute;
+    top : 53vh;
+    left : 18vw;
+    color: white;
+    font-size: 0.85em;
+    font-family: "Roboto Slab", sans-serif;
+    text-align: justify;
 }
