@@ -69,18 +69,6 @@ header nav a {
     top : 32vh;
     left : -19.2vw;
     color: white;
-    opacity: 0.9;
-    font-size: 4em;
-    font-family: "Roboto Slab", serif;
-    font-weight: 0;
+    margin: 0, auto;
 }
 
-#home .Texte p{
-    position : absolute;
-    top : 53vh;
-    left : 18vw;
-    color: white;
-    font-size: 0.85em;
-    font-family: "Roboto Slab", sans-serif;
-    text-align: justify;
-}
